@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HVAC Speed Selling Playbook — Free Download | CyclSales</title>
+    <meta name="description" content="Free playbook for HVAC contractors: research leads in 60 seconds, build 3-tier estimates in 5 minutes, and stop losing jobs to slow follow-up.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: #333333; background: #FAFAFA; line-height: 1.6; }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 24px 80px;
+            overflow: hidden;
+            color: white;
+        }
+
+        /* Video background — iframe injected via JS on desktop only */
+        .hero-video-bg {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .hero-video-bg iframe {
+            position: absolute;
+            top: 50%; left: 50%;
+            width: 180%; height: 180%;
+            transform: translate(-50%, -50%);
+            border: 0;
+        }
+
+        /* Dark overlay so text reads over video */
+        .hero-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(135deg, rgba(30,58,95,.88), rgba(46,134,171,.82));
+            z-index: 1;
+        }
+
+        /* Mobile fallback — solid gradient, no video */
+        @media (max-width: 900px) {
+            .hero {
+                background: linear-gradient(135deg, #1E3A5F 0%, #2E86AB 100%);
+            }
+            .hero-video-bg { display: none; }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 24px;
+            padding: 7px 18px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+        .hero h1 {
+            font-size: clamp(28px, 5vw, 44px);
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0 auto 16px;
+        }
+        .hero p {
+            font-size: clamp(16px, 2.5vw, 20px);
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 400;
+        }
+
+        /* Form Card */
+        .form-section {
+            max-width: 480px;
+            margin: -50px auto 0;
+            padding: 0 20px;
+            position: relative;
+            z-index: 3;
+        }
+        .form-card {
+            background: white;
+            border-radius: 12px;
+            padding: 32px 28px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        .form-card h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1E3A5F;
+            margin-bottom: 4px;
+            text-align: center;
+        }
+        .form-card .form-sub {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 14px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 4px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #2E86AB;
+        }
+        .form-group input::placeholder {
+            color: #aaa;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: #F97316;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 6px;
+        }
+        .submit-btn:hover {
+            background: #ea6c10;
+        }
+        .trust-text {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 12px;
+        }
+
+        /* What You Get Section */
+        .benefits {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .benefits h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1E3A5F;
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .benefit-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 600px) {
+            .benefit-grid { grid-template-columns: 1fr; }
+        }
+        .benefit-card {
+            background: white;
+            border-radius: 10px;
+            padding: 24px;
+            border: 1px solid #eee;
+        }
+        .benefit-card .benefit-icon {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .benefit-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1E3A5F;
+            margin-bottom: 6px;
+        }
+        .benefit-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: #1E3A5F;
+            color: white;
+            padding: 40px 20px;
+        }
+        .stats-grid {
+            max-width: 700px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .stats-grid { grid-template-columns: 1fr; gap: 16px; }
+        }
+        .stat-item .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #F97316;
+        }
+        .stat-item .stat-label {
+            font-size: 14px;
+            opacity: 0.85;
+            margin-top: 4px;
+        }
+
+        /* Pain Section */
+        .pain-section {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .pain-section h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1E3A5F;
+            margin-bottom: 20px;
+        }
+        .pain-list {
+            list-style: none;
+        }
+        .pain-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+            color: #444;
+            padding-left: 28px;
+            position: relative;
+        }
+        .pain-list li::before {
+            content: "✕";
+            position: absolute;
+            left: 0;
+            color: #e74c3c;
+            font-weight: 700;
+        }
+
+        /* Proof Section */
+        .proof-section {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 12px;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 32px 28px;
+        }
+        .proof-section h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1E3A5F;
+            margin-bottom: 16px;
+        }
+        .proof-quote {
+            font-size: 16px;
+            font-style: italic;
+            color: #555;
+            border-left: 3px solid #F97316;
+            padding-left: 16px;
+            margin: 16px 0;
+        }
+        .proof-attribution {
+            font-size: 14px;
+            color: #888;
+            margin-top: 8px;
+        }
+
+        /* CTA Bottom */
+        .cta-bottom {
+            background: linear-gradient(135deg, #1E3A5F 0%, #2E86AB 100%);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .cta-bottom h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .cta-bottom p {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 24px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cta-bottom .submit-btn {
+            max-width: 320px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 32px 20px;
+            font-size: 13px;
+            color: #999;
+        }
+        footer a {
+            color: #2E86AB;
+            text-decoration: none;
+        }
+
+        /* Thank You State */
+        .thank-you {
+            display: none;
+            text-align: center;
+            padding: 24px 0;
+        }
+        .thank-you h3 {
+            color: #1E3A5F;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .thank-you p {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero with background video -->
+    <section class="hero">
+        <div class="hero-video-bg" id="heroVideoBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Free Playbook</div>
+            <h1>Stop Losing HVAC Jobs to Slow Follow-Up</h1>
+            <p>The playbook HVAC contractors use to research leads in 60 seconds, build 3-tier estimates in 5 minutes, and close 10+ more jobs per month.</p>
+        </div>
+    </section>
+
+    <!-- Form -->
+    <section class="form-section">
+        <div class="form-card">
+            <h2>Get the Free Playbook</h2>
+            <p class="form-sub">Instant download. No credit card required.</p>
+
+            <form id="lead-form">
+                <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" placeholder="Mike" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="mike@yourcompany.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone <span style="color:#aaa; font-weight:400;">(optional)</span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+
+                <!-- Hidden UTM Fields -->
+                <input type="hidden" name="lead_source" value="hvac-speed-selling-playbook">
+                <input type="hidden" name="utm_source" id="utm_source">
+                <input type="hidden" name="utm_medium" id="utm_medium">
+                <input type="hidden" name="utm_campaign" id="utm_campaign">
+                <input type="hidden" name="utm_content" id="utm_content">
+                <input type="hidden" name="utm_term" id="utm_term">
+                <input type="hidden" name="ref" id="ref">
+                <input type="hidden" name="landing_page" id="landing_page">
+
+                <button type="submit" class="submit-btn">Send Me the Playbook</button>
+                <p class="trust-text">Join 500+ HVAC contractors who've downloaded this guide.</p>
+            </form>
+
+            <div class="thank-you" id="thank-you">
+                <h3>Check your inbox.</h3>
+                <p>The playbook is on its way. Look for an email from miron@cyclsales.com in the next 2 minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <h2>What's Inside the Playbook</h2>
+        <div class="benefit-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">&#9201;</div>
+                <h3>60-Second Lead Research</h3>
+                <p>How to pull property data, system age, and home value before you call back — so you sound prepared, not cold.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">&#128200;</div>
+                <h3>3-Tier Estimate Framework</h3>
+                <p>Good/Better/Best pricing that gets 60-70% of homeowners to pick the middle option. Stop leaving money on the table.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">&#128172;</div>
+                <h3>Follow-Up Cadence That Works</h3>
+                <p>The exact 6-touch sequence and templates for turning "let me think about it" into a signed estimate.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">&#128176;</div>
+                <h3>The Revenue Math</h3>
+                <p>How faster response + better estimates = 10+ more closed jobs per month from the same leads you're already getting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-bar">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">9x</div>
+                <div class="stat-label">Higher conversion rate<br>when you respond in under 5 min</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50%</div>
+                <div class="stat-label">of homeowners choose<br>the first company that responds</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2.5 hrs</div>
+                <div class="stat-label">saved per day<br>on lead research and estimates</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pain Points -->
+    <section class="pain-section">
+        <h2>Sound familiar?</h2>
+        <ul class="pain-list">
+            <li>You call leads back 30-60 minutes later because you were on a job — and they already booked someone else</li>
+            <li>You spend 30+ minutes building each estimate at your kitchen table after hours</li>
+            <li>You give one option, one price — and hear "let me think about it" every time</li>
+            <li>You forget to follow up on unsold estimates because tomorrow has its own list of calls</li>
+            <li>You know you're losing jobs to guys who aren't better — just faster</li>
+        </ul>
+    </section>
+
+    <!-- Proof -->
+    <section style="max-width: 700px; margin: 0 auto; padding: 0 20px;">
+        <div class="proof-section">
+            <h2>Built by someone who gets it</h2>
+            <p style="font-size: 15px; color: #555; margin-bottom: 16px;">CyclSales was built by Miron Briley — 20+ years running service businesses. Mobile detailing. Five car wash locations. 120 real estate transactions in 2024. He's been the guy on the job site missing calls.</p>
+            <div class="proof-quote">
+                "I went from manually managing everything to having a system that actually works. Within 30 days I was referring other people to it."
+            </div>
+            <p class="proof-attribution">— Stephanie, CyclSales client</p>
+            <p style="font-size: 15px; color: #555; margin-top: 16px;">The word clients say most? <strong>"Finally."</strong></p>
+        </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="cta-bottom" style="margin-top: 60px;">
+        <h2>Get the Playbook. Close More Jobs.</h2>
+        <p>Same leads. Faster response. Better estimates. More money.</p>
+        <a href="#lead-form" style="text-decoration: none;">
+            <button class="submit-btn">Send Me the Free Playbook</button>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 <a href="https://cyclsales.com?utm_source=lead-magnet&utm_medium=landing-page&utm_content=hvac-speed-selling">CyclSales</a> — AI-powered CRM for home service businesses.</p>
+    </footer>
+
+    <!-- YouTube BG — desktop only (saves ~730KB on mobile) -->
+    <script>
+    (function(){
+        if(window.innerWidth>900){
+            var w=document.getElementById('heroVideoBg');
+            if(w){
+                var f=document.createElement('iframe');
+                f.src='https://www.youtube.com/embed/xYHaAvDzwVY?autoplay=1&mute=1&loop=1&playlist=xYHaAvDzwVY&controls=0&showinfo=0&modestbranding=1&rel=0&disablekb=1&iv_load_policy=3&playsinline=1';
+                f.title='Background video';
+                f.frameBorder='0';
+                f.allow='autoplay; encrypted-media';
+                f.allowFullscreen=true;
+                w.appendChild(f);
+            }
+        }
+    })();
+    </script>
+
+    <script>
+        // Capture UTM parameters
+        (function() {
+            const params = new URLSearchParams(window.location.search);
+            const fields = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'ref'];
+            fields.forEach(function(field) {
+                const el = document.getElementById(field);
+                if (el && params.get(field)) {
+                    el.value = params.get(field);
+                }
+            });
+            const landingEl = document.getElementById('landing_page');
+            if (landingEl) {
+                landingEl.value = window.location.pathname;
+            }
+        })();
+
+        // Form submission
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const formData = new FormData(form);
+            const params = new URLSearchParams();
+
+            for (const [key, value] of formData.entries()) {
+                if (value !== '') params.append(key, value);
+            }
+
+            // Replace with your GHL webhook URL
+            fetch('YOUR_GHL_WEBHOOK_URL', {
+                method: 'POST',
+                body: params,
+                mode: 'no-cors'
+            }).then(function() {
+                form.style.display = 'none';
+                document.getElementById('thank-you').style.display = 'block';
+            }).catch(function() {
+                form.style.display = 'none';
+                document.getElementById('thank-you').style.display = 'block';
+            });
+        });
+    </script>
+
+</body>
+</html>

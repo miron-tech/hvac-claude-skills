@@ -3,7 +3,7 @@
 **Subject:** quick math on what you're leaving on the table
 **Subject B:** 5 leads a day × slow follow-up = ?
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 8
 
 ---
@@ -22,10 +22,10 @@ From leads you already paid for.
 
 The playbook I sent you covers how to fix the speed problem manually. It works — if you have the time to do it consistently.
 
-If you don't — because you're on jobs, running a crew, handling customer calls — that's exactly what we built CyclSales for.
+If you don't — because you're on jobs, running a crew, handling customer calls — that's exactly what we set up the RankGrid platform for.
 
 The system does the fast response, the lead research, the follow-up sequence, and the estimate math. You focus on the work.
 
-**[See how it works → 15 min, no pitch](https://cyclsales.com/hvac?utm_source=email&utm_medium=nurture&utm_content=email-6-nudge)**
+**[See how it works → 15 min, no pitch](https://rankgrid.ai?utm_source=email&utm_medium=nurture&utm_content=email-6-nudge)**
 
 — Miron

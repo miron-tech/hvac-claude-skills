@@ -97,9 +97,9 @@ Comment **CLOSE** and I'll send it to you.
 
 | Platform | URL |
 |----------|-----|
-| Facebook | `cyclsales.com/hvac-playbook?utm_source=facebook&utm_medium=social&utm_content=organic-post` |
-| LinkedIn | `cyclsales.com/hvac-playbook?utm_source=linkedin&utm_medium=social&utm_content=organic-post` |
-| Nextdoor | `cyclsales.com/hvac-playbook?utm_source=nextdoor&utm_medium=social&utm_content=organic-post` |
+| Facebook | `[landing-page-url]?utm_source=facebook&utm_medium=social&utm_content=organic-post` |
+| LinkedIn | `[landing-page-url]?utm_source=linkedin&utm_medium=social&utm_content=organic-post` |
+| Nextdoor | `[landing-page-url]?utm_source=nextdoor&utm_medium=social&utm_content=organic-post` |
 
 ---
 
@@ -109,4 +109,4 @@ Comment **CLOSE** and I'll send it to you.
 - **LinkedIn:** Use Hooks 2, 4 — data-forward, professional
 - **Nextdoor:** Use Hooks 1, 3 — local, question-based, community tone
 - **Post frequency:** One hook per week, rotate platforms
-- **Image:** Text-based graphic with the stat (use Glif for text-on-image). Example: "9x higher close rate when you respond in under 5 minutes"
+- **Image:** Text-based graphic with the stat (build it in Canva). Example: "9x higher close rate when you respond in under 5 minutes"

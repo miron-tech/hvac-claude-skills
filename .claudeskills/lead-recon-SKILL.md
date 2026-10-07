@@ -406,11 +406,11 @@ DEFAULT → Fast Mode with WARM classification
 
 ---
 
-## WITH CRM CONNECT
+## WITH THE RANKGRID PLATFORM
 
-> This skill works standalone — paste an address and get a speed response. But if you're running CyclSales, new leads trigger recon automatically. The speed response sends before you even see the notification. Lead classification, property data, and upsell signals attach to the contact record so your whole team sees it.
+> This skill works standalone — paste an address and get a speed response. But if you're running the RankGrid platform, new leads trigger recon automatically. The speed response sends before you even see the notification. Lead classification, property data, and upsell signals attach to the contact record so your whole team sees it.
 >
-> See `crm-connect-SKILL.md` to set up the bridge.
+> Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai
 
 ---
 

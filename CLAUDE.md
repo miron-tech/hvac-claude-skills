@@ -1,7 +1,7 @@
-# HVAC Contractor Claude Skills — by CyclSales
+# HVAC Contractor Claude Skills, by RankGrid
 
 ## What This Is
-6 AI skills that turn Claude Code into your HVAC sales assistant — researching leads in seconds, building 3-tier estimates, coaching your follow-up, ranking your pipeline, automating review collection, and connecting everything to your CRM.
+5 AI skills that turn Claude Code into your HVAC sales assistant — researching leads in seconds, building 3-tier estimates, coaching your follow-up, ranking your pipeline, and automating review collection.
 
 ## Data Sources
 
@@ -9,7 +9,6 @@
 |------------|-------------|-----------|
 | **Perplexity** | Looks up property data, energy costs, rebates, equipment pricing, and market info | Recommended |
 | **Firecrawl** | Pulls property details from Redfin and Zillow (sqft, year built, home value) | Recommended |
-| **CRM (CyclSales)** | Reads and writes to your CRM — contacts, pipeline, conversations, review requests | For CRM Connect |
 
 ## How To Use
 1. Clone this repo into your project directory (see README for setup)
@@ -26,7 +25,6 @@
 | **Sales Coach** | An estimate went unsold and you need to know what to say next |
 | **Job Stacker** | You have multiple estimates and need to know which ones to focus on this week |
 | **Review Engine** | A job is done and you need to get a 5-star review + respond to existing reviews |
-| **CRM Connect** | You want Claude to save leads, push estimates, send follow-ups, or pull your pipeline from CRM |
 
 ## How Claude Picks the Right Skill
 
@@ -36,7 +34,6 @@ Need to build an estimate (replacement, repair, maintenance) → Quote Builder
 Estimate went unsold or customer stopped responding → Sales Coach
 Multiple leads/estimates and need to prioritize → Job Stacker
 Job is done, need a review request → Review Engine
-"Save to CRM," "push this estimate," "show my pipeline," "stack my jobs" → CRM Connect
 ```
 
 ## How the Skills Work Together
@@ -53,15 +50,13 @@ Lead comes in → Lead Recon (research + speed response)
               Job Stacker (weekly pipeline priority)
                     ↓
              Review Engine (post-job review request)
-                    ↓
-             CRM Connect (saves everything to your CRM)
 ```
 
 | What You're Doing | What to Tell Claude |
 |-------------------|-------------------|
-| New lead comes in | "Run lead recon on [address]" → then "Save this lead to my CRM" |
-| Need an estimate | "Build an estimate for this lead" → "Push this estimate to my pipeline" |
-| Estimate went cold | "Coach me on this unsold estimate" → "Send that follow-up" |
+| New lead comes in | "Run lead recon on [address]" |
+| Need an estimate | "Build an estimate for this lead" |
+| Estimate went cold | "Coach me on this unsold estimate" |
 | Weekly planning | "Stack my jobs for this week" |
 | Job finished | "Generate a review request for [customer]" |
 
@@ -79,7 +74,7 @@ At 5 leads/day and 3 completed jobs/day: **2-3 hours back every day.**
 
 ## Marketing Campaign: HVAC Speed Selling Playbook
 
-A complete lead magnet funnel to acquire HVAC contractors as CyclSales clients. All assets live in `campaigns/hvac-speed-selling/`.
+A complete lead magnet funnel to acquire HVAC contractors as clients. All assets live in `campaigns/hvac-speed-selling/`.
 
 ### Funnel Flow
 ```
@@ -89,7 +84,7 @@ Landing Page (lead magnet opt-in + hero background video)
         ↓
 7-Email Nurture Sequence (Days 0-10)
         ↓
-Book demo call → CyclSales $300/mo
+Book a call → done-for-you setup
 ```
 
 ### Assets
@@ -97,7 +92,7 @@ Book demo call → CyclSales $300/mo
 | Asset | File |
 |-------|------|
 | Lead Magnet (8-page playbook) | `campaigns/hvac-speed-selling/lead-magnet.md` |
-| Landing Page (GHL-ready HTML, background hero video) | `campaigns/hvac-speed-selling/landing-page.html` |
+| Landing Page (HTML, background hero video) | `campaigns/hvac-speed-selling/landing-page.html` |
 | Email 1 — Delivery (immediate) | `campaigns/hvac-speed-selling/emails/01-delivery.md` |
 | Email 2 — Story (Day 1) | `campaigns/hvac-speed-selling/emails/02-the-story.md` |
 | Email 3 — Problem (Day 2) | `campaigns/hvac-speed-selling/emails/03-the-problem.md` |
@@ -115,12 +110,12 @@ Book demo call → CyclSales $300/mo
 - Matches wholesaler funnel pattern from `claude skills for wholesalers/landing-page.html`
 
 ### Go-Live Checklist
-- [ ] Replace `YOUR_GHL_WEBHOOK_URL` in landing-page.html
-- [ ] Upload landing page to GHL
-- [ ] Build 7-email automation workflow in GHL
+- [ ] Replace `YOUR_WEBHOOK_URL` in landing-page.html
+- [ ] Upload landing page to your site or funnel builder
+- [ ] Build 7-email automation workflow in your email platform
 - [ ] Create Canva ad graphics
 - [ ] Launch Facebook test ads ($20-30/day)
 - [ ] Post first social hook
 
-## Built by CyclSales
-Built by [CyclSales](https://cyclsales.com) — an AI-powered CRM for home service businesses. If you want these skills running on autopilot with AI follow-up, pipeline management, and review automation built in — [see what we built](https://cyclsales.com).
+## Built by RankGrid
+Built by [RankGrid](https://rankgrid.ai). We build lead websites that rank and get contractors found on Google and AI search. Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai

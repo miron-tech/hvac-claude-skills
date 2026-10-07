@@ -3,7 +3,7 @@
 **Subject:** your HVAC speed selling playbook
 **Subject B:** here's the playbook you asked for
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Immediately after opt-in
 
 ---
@@ -25,6 +25,6 @@ That one move alone puts you ahead of 90% of HVAC contractors who call back cold
 Hit reply if you have questions. I read everything.
 
 — Miron
-CyclSales
+RankGrid
 
 *P.S. — If you want to see how this works on autopilot (AI does the research for you), I'll show you in a couple days.*

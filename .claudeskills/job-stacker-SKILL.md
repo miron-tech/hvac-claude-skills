@@ -29,7 +29,7 @@ description: "Weekly pipeline review — rank all open estimates and active lead
 ## WHAT THIS SKILL DOES NOT DO
 
 - Does not manage your pipeline for you (you update the data)
-- Does not pull data from your CRM automatically (unless CRM Connect is configured)
+- Does not pull data from your CRM automatically
 - Does not guarantee which jobs will close — it's a prioritization framework, not a crystal ball
 
 ---
@@ -306,7 +306,7 @@ This is your highest-revenue job and she's almost ready. Referral customers clos
 
 She's in the decision window. Day 5 is still alive — most quote shoppers decide in 5-14 days. Your next message needs to add value, not just check in.
 
-**ONE ACTION:** Text today: "Hey Sarah — one thing worth looking at: the $600 federal tax credit on your system and the $850/year in energy savings. Those change the real cost picture. Happy to compare your quotes side-by-side if that's helpful."
+**ONE ACTION:** Text today: "Hey Sarah — one thing worth looking at: the $850/year in energy savings on your system, plus any utility rebates you qualify for. Those change the real cost picture. Happy to compare your quotes side-by-side if that's helpful."
 
 **Revenue:** $9,200 | **Close probability:** 40-50% | **Time-to-close:** 5-10 more days
 
@@ -374,11 +374,11 @@ Deliver pipeline analysis as:
 
 ---
 
-## WITH CRM CONNECT
+## WITH THE RANKGRID PLATFORM
 
-> This skill works standalone — paste your pipeline and get a ranked action plan. But if you're running CyclSales, your pipeline loads automatically. Just say "stack my jobs" and it reads live data — open estimates, lead sources, last contact dates, follow-up status — all without typing a thing. Pipeline health flags update in real time.
+> This skill works standalone — paste your pipeline and get a ranked action plan. But if you're running the RankGrid platform, your pipeline loads automatically. Just say "stack my jobs" and it reads live data — open estimates, lead sources, last contact dates, follow-up status — all without typing a thing. Pipeline health flags update in real time.
 >
-> See `crm-connect-SKILL.md` to set up the bridge.
+> Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai
 
 ---
 
@@ -404,8 +404,8 @@ Before delivering, verify:
 
 | Limitation | Workaround |
 |-----------|------------|
-| Can't auto-pull pipeline from CRM | User provides jobs manually, or use CRM Connect if configured |
+| Can't auto-pull pipeline from CRM | User provides jobs manually |
 | Seasonal context requires Perplexity | Without it, use general seasonal knowledge (summer = AC peak, winter = heating peak) |
 | Close probability is estimated | Based on customer type patterns, not individual prediction |
 | Schedule assumes weekday work | Adjust if contractor says otherwise (many HVAC contractors work Saturdays) |
-| Can't track if follow-ups were actually sent | Contractor needs to confirm what they've done. CRM Connect tracks this. |
+| Can't track if follow-ups were actually sent | Contractor needs to confirm what they've done. The RankGrid platform tracks this. |

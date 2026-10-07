@@ -352,7 +352,7 @@ DEFAULT → Follow the 7-touch cadence. Don't skip touches. Don't give up at tou
 
 ### YOUR NEXT MESSAGE (Text):
 
-"Hey Sarah — I know you're comparing options on the AC replacement. One thing that's worth looking at: the federal tax credit on the system I quoted you is $600, plus your new system saves about $850/year in energy costs. Those numbers change the total cost picture pretty significantly.
+"Hey Sarah — I know you're comparing options on the AC replacement. One thing that's worth looking at: your new system saves about $850/year in energy costs, and your utility may have rebates on top of that. Those numbers change the total cost picture pretty significantly.
 
 Happy to walk through a side-by-side comparison if you have other quotes to look at. No pressure — just want to make sure you're comparing the full picture."
 
@@ -399,11 +399,11 @@ Deliver coaching as:
 
 ---
 
-## WITH CRM CONNECT
+## WITH THE RANKGRID PLATFORM
 
-> This skill works standalone — paste a conversation and get coaching. But if you're running CyclSales, unsold estimates surface automatically at Day 3, Day 7, and Day 14 — with the follow-up message pre-drafted and ready to send in one click. No estimates fall through the cracks because you forgot to follow up.
+> This skill works standalone — paste a conversation and get coaching. But if you're running the RankGrid platform, unsold estimates surface automatically at Day 3, Day 7, and Day 14 — with the follow-up message pre-drafted and ready to send in one click. No estimates fall through the cracks because you forgot to follow up.
 >
-> See `crm-connect-SKILL.md` to set up the bridge.
+> Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai
 
 ---
 
@@ -430,5 +430,5 @@ Before delivering, verify:
 | Can't read actual text thread (only what contractor pastes) | Ask contractor to paste full thread, not summary. Context matters. |
 | Can't track if customer opened emails | Recommend contractor's email tool tracks opens. "Did they open the email?" changes the strategy. |
 | Doesn't know competitor pricing | Coach contractor to ask: "What are the other quotes looking like?" — not to match, but to differentiate. |
-| Maintenance plan adoption tracking is manual | CRM Connect tracks this automatically. Without it, contractor needs to note who has a plan. |
-| Can't automate the follow-up cadence | CRM Connect automates the timing. Without it, contractor sets phone reminders. |
+| Maintenance plan adoption tracking is manual | The RankGrid platform tracks this automatically. Without it, contractor needs to note who has a plan. |
+| Can't automate the follow-up cadence | The RankGrid platform automates the timing. Without it, contractor sets phone reminders. |

@@ -18,7 +18,7 @@ description: "Build professional Good/Better/Best HVAC estimates with rebates, f
 
 - Takes property data (from Lead Recon or manual input) + job type
 - Generates **3-tier pricing** (Good / Better / Best) with specific equipment recommendations
-- Calculates applicable **rebates** (federal tax credits, utility rebates, manufacturer rebates)
+- Calculates applicable **rebates** (utility rebates, state programs, manufacturer rebates)
 - Adds **financing options** (monthly payment at different terms)
 - Includes **energy savings comparison** (old system vs new, annual savings estimate)
 - Calculates **lifetime cost of ownership** — total cost over 15-20 years including energy + maintenance
@@ -120,16 +120,16 @@ IF climate zone 5-7 (cold) → Dual fuel or gas furnace + AC (heat pump alone st
 
 ### Step 3 — Calculate Rebates
 
-**Federal Tax Credits (as of 2025-2026):**
+**Federal Tax Credits:**
 ```
-Heat pump (ENERGY STAR certified): Up to $2,000 federal tax credit (25C)
-Central AC (ENERGY STAR Most Efficient): Up to $600 federal tax credit
-Gas furnace (ENERGY STAR certified, 97%+ AFUE): Up to $600 federal tax credit
-Insulation + air sealing: Up to $1,200 additional
-Heat pump water heater: Up to $2,000 additional
+Do NOT quote a federal tax credit. The federal 25C energy efficient home
+improvement credit (heat pumps, central AC, furnaces, heat pump water
+heaters, insulation) ended for equipment placed in service after
+December 31, 2025.
 
-NOTE: Credits are per year. Homeowner can claim in the year of installation.
-Tax CREDIT (not deduction) — dollar-for-dollar reduction in tax owed.
+Tell the customer to check current federal, state and utility rebates:
+their utility company and DSIRE (dsireusa.org). Tax questions go to
+their tax preparer.
 ```
 
 **Utility / State Rebates (use Perplexity to find current programs):**
@@ -156,7 +156,6 @@ search_context_size: "medium"
 - Missing AHRI certificate number (required for most rebates)
 - Wrong system type (heat pump rebate claimed for AC-only install)
 - Missing energy audit (some utility rebates require pre-install audit)
-- Incorrect tax form (25C credit requires Form 5695)
 - Rebate expired between estimate and installation
 - Contractor not on utility's approved installer list
 
@@ -306,9 +305,9 @@ search_context_size: "high"
 
 **Rebate lookup:**
 ```
-perplexity_ask: "All available HVAC rebates and tax credits for homeowners in
-[city] [state] [zip] in 2026. Include: federal 25C tax credits, state incentive
-programs, [utility company] rebates, and any heat pump specific incentives.
+perplexity_ask: "All available HVAC rebates and incentives for homeowners in
+[city] [state] [zip] in 2026. Include: state incentive programs,
+[utility company] rebates, and any heat pump specific incentives.
 List dollar amounts and eligibility requirements for each."
 
 search_context_size: "high"
@@ -408,8 +407,7 @@ Based on 1,850 sqft in Memphis (Climate Zone 3A, hot-humid): **4-ton system** re
 | **System** | Goodman 4-ton AC + 80% Furnace | Carrier Comfort 4-ton AC + 96% Furnace | Trane XV18 4-ton Variable Speed HP + Gas Backup (Dual Fuel) |
 | **SEER2 / AFUE** | 14.3 SEER2 / 80% AFUE | 16 SEER2 / 96% AFUE | 18 SEER2 / 97% AFUE |
 | **Features** | Single-stage, standard warranty | Two-stage, quieter, 10-yr parts | Variable speed, ultra-quiet, Wi-Fi thermostat, 12-yr parts |
-| **Install Price** | $7,200 | $9,800 | $13,500 |
-| **Federal Tax Credit** | $0 (doesn't qualify) | $600 (ENERGY STAR AC + furnace) | $2,000 (heat pump) + $600 (furnace backup) |
+| **Install Price** | $7,200 | $9,200 | $10,900 |
 | **TVA Rebate** | $0 | $0 | $1,500 (heat pump) |
 | **Net Price** | **$7,200** | **$9,200** | **$9,400** |
 | **Monthly (10yr @ 6.99%)** | $84/mo | $107/mo | $109/mo |
@@ -444,7 +442,7 @@ Your current SEER 13 system at 16 years old:
 |-------------|--------|
 | Energy overpayment vs Best | $100/month |
 | Emergency repair risk (avg) | $125/month |
-| Rebate expiration risk | Federal credits stable through 2032, but TVA program could change |
+| Rebate expiration risk | TVA and other utility programs can change or run out of funding |
 | **Total cost of waiting** | **~$225/month** |
 
 > Every month you wait costs roughly $225 more than it needs to. In 6 months, that's $1,350 — almost 15% of the Best system's net cost.
@@ -476,13 +474,11 @@ Why: They're comparing quotes. The Good tier makes you look cheap. The Best tier
 
 | Rebate | Amount | Tier | Requirements |
 |--------|--------|------|-------------|
-| Federal 25C Heat Pump Credit | $2,000 | Best only | ENERGY STAR certified heat pump, filed on Form 5695 |
-| Federal 25C AC Credit | $600 | Better | ENERGY STAR certified, SEER2 16+ |
-| Federal 25C Furnace Credit | $600 | Better + Best | 97%+ AFUE, ENERGY STAR certified |
 | TVA EnergyRight Heat Pump | $1,500 | Best only | Must be on TVA-approved equipment list, installed by participating contractor |
-| **Total Available** | **$600** | **$1,200** | **$4,100** |
+| Federal tax credit | Not quoted | n/a | The 25C credit ended for equipment installed after Dec 31, 2025. Customer should check current federal, state and utility rebates (their utility, DSIRE at dsireusa.org). |
+| **Total Available** | **$0** | **$0** | **$1,500** |
 
-⚠️ **Common errors to avoid:** Ensure AHRI certificate number is on file before submitting. TVA requires the contractor to be a registered EnergyRight partner. Federal credit is per taxpayer per year — if customer did another 25C project this year, limits may apply.
+⚠️ **Common errors to avoid:** Ensure AHRI certificate number is on file before submitting. TVA requires the contractor to be a registered EnergyRight partner.
 
 ---
 
@@ -528,11 +524,11 @@ Deliver estimates as:
 
 ---
 
-## WITH CRM CONNECT
+## WITH THE RANKGRID PLATFORM
 
-> This skill works standalone — give it a property and job type, get back a complete 3-tier estimate. But if you're running CyclSales, the estimate saves directly to the contact record with all three tiers, rebates, and financing options attached. When the customer calls back, your whole team sees what was quoted — no digging through emails or notebooks.
+> This skill works standalone — give it a property and job type, get back a complete 3-tier estimate. But if you're running the RankGrid platform, the estimate saves directly to the contact record with all three tiers, rebates, and financing options attached. When the customer calls back, your whole team sees what was quoted — no digging through emails or notebooks.
 >
-> See `crm-connect-SKILL.md` to set up the bridge.
+> Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai
 
 ---
 

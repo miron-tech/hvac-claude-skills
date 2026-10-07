@@ -3,7 +3,7 @@
 **Subject:** "will this actually work for my business?"
 **Subject B:** the question I get most
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 6
 
 ---

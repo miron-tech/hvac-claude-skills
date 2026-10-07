@@ -3,7 +3,7 @@
 **Subject:** the $50K mistake most HVAC contractors make
 **Subject B:** this is where the jobs go
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 2
 
 ---

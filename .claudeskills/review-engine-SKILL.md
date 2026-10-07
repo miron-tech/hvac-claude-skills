@@ -414,7 +414,7 @@ At 4.5 stars with 142 reviews, you need **mostly 5-star reviews** to climb:
 ---
 
 ### HANDOFF SUMMARY
-- **For CRM Connect:** Log review request sent, track response, update customer record with review status
+- **For your CRM:** Log review request sent, track response, update customer record with review status
 - **For Sales Coach:** Sarah is now a referenceable customer. "Your neighbor Sarah just installed the same system" is powerful social proof for nearby leads.
 
 ---
@@ -434,11 +434,11 @@ Deliver review automation as:
 
 ---
 
-## WITH CRM CONNECT
+## WITH THE RANKGRID PLATFORM
 
-> This skill works standalone — tell it the job details and get review requests ready to send. But if you're running CyclSales, review requests fire automatically when a job is marked complete. The personalized message sends at the right time, follow-ups trigger on schedule, and review velocity tracks in your dashboard — zero manual effort.
+> This skill works standalone — tell it the job details and get review requests ready to send. But if you're running the RankGrid platform, review requests fire automatically when a job is marked complete. The personalized message sends at the right time, follow-ups trigger on schedule, and review velocity tracks in your dashboard — zero manual effort.
 >
-> See `crm-connect-SKILL.md` to set up the bridge.
+> Want this connected to a CRM with automated follow-up? That's what the RankGrid platform does: https://rankgrid.ai
 
 ---
 
@@ -461,8 +461,8 @@ Before delivering, verify:
 
 | Limitation | Workaround |
 |-----------|------------|
-| Can't track if review was actually posted | Contractor checks Google manually. CRM Connect can track via Google API. |
+| Can't track if review was actually posted | Contractor checks Google manually. The RankGrid platform can track this. |
 | Can't generate QR codes directly | Recommend contractor use any QR code generator (free) with their Google review link |
 | Google Place ID must be set up by contractor | Provide instructions for finding it. One-time setup. |
-| Can't auto-respond to reviews | Contractor copies response template and posts. CRM Connect can partially automate. |
+| Can't auto-respond to reviews | Contractor copies response template and posts. The RankGrid platform can partially automate. |
 | Yelp, Facebook, BBB reviews not covered | This skill focuses on Google (95%+ of HVAC review traffic). Same principles apply elsewhere. |

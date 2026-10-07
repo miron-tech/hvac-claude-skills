@@ -3,7 +3,7 @@
 **Subject:** how this played out for one contractor
 **Subject B:** from "let me think about it" to 10 more jobs
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 4
 
 ---
@@ -36,7 +36,7 @@ And he got about 2.5 hours back every day because the research and estimate buil
 
 If you want the same setup — not the manual version from the playbook, but the automated version that runs without you — I can show you how it works in 15 minutes.
 
-**[Book a quick call →](https://cyclsales.com/hvac?utm_source=email&utm_medium=nurture&utm_content=email-4-proof)**
+**[Book a quick call →](https://rankgrid.ai?utm_source=email&utm_medium=nurture&utm_content=email-4-proof)**
 
 No pitch. I'll just show you the system and you can decide if it makes sense.
 

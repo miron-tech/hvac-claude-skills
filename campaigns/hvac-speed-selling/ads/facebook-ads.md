@@ -14,7 +14,7 @@ Free playbook shows you how to respond in under 2 minutes, build 3-tier estimate
 **Headline:** Free HVAC Speed Selling Playbook
 **Description:** Research leads in 60 seconds. Build better estimates. Close more jobs.
 **CTA Button:** Download
-**URL:** `cyclsales.com/hvac-playbook?utm_source=facebook&utm_medium=paid&utm_content=ad-1-retargeting`
+**URL:** `[landing-page-url]?utm_source=facebook&utm_medium=paid&utm_content=ad-1-retargeting`
 
 **Use for:** Retargeting website visitors, video viewers, engagement audiences
 
@@ -42,7 +42,7 @@ Download it free. No email course. No webinar. Just the playbook.
 **Headline:** Stop Losing HVAC Jobs to Slow Follow-Up
 **Description:** Free playbook — research leads in 60 sec, 3-tier estimates in 5 min.
 **CTA Button:** Download
-**URL:** `cyclsales.com/hvac-playbook?utm_source=facebook&utm_medium=paid&utm_content=ad-2-cold`
+**URL:** `[landing-page-url]?utm_source=facebook&utm_medium=paid&utm_content=ad-2-cold`
 
 **Use for:** Cold traffic — HVAC contractor interest targeting, home service business owners
 
@@ -72,7 +72,7 @@ It's free. I wrote it because I've been the guy on the job site missing calls, a
 **Headline:** Free Playbook for HVAC Contractors
 **Description:** Research leads in 60 sec. 3-tier estimates in 5 min. Close more jobs.
 **CTA Button:** Download
-**URL:** `cyclsales.com/hvac-playbook?utm_source=facebook&utm_medium=paid&utm_content=ad-3-story`
+**URL:** `[landing-page-url]?utm_source=facebook&utm_medium=paid&utm_content=ad-3-story`
 
 **Use for:** Cold traffic, lookalike audiences, broad targeting with story creative
 
@@ -86,7 +86,7 @@ All three ads use the same creative style (Jeff Miller "stupid simple"):
 - White background
 - Bold text: "HVAC Contractors: You're Losing Jobs to Slow Follow-Up"
 - Subtext: "Free Playbook — Download Now"
-- CyclSales logo in corner
+- RankGrid logo in corner
 
 **Option B — Stat graphic:**
 - Blue background (#1E3A5F)
@@ -115,7 +115,7 @@ All three ads use the same creative style (Jeff Miller "stupid simple"):
 
 **Lookalike:**
 - 1% lookalike of lead magnet downloaders
-- 1% lookalike of CyclSales customers
+- 1% lookalike of RankGrid customers
 
 ---
 

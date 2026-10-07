@@ -3,7 +3,7 @@
 **Subject:** should I stop sending these?
 **Subject B:** closing this out
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 10
 
 ---
@@ -31,4 +31,4 @@ If not — reply "not now" and I'll close your file. No guilt, no follow-up.
 Talk soon either way.
 
 — Miron
-CyclSales
+RankGrid

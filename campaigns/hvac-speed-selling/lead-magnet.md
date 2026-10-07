@@ -1,7 +1,7 @@
 # The HVAC Speed Selling Playbook
 ### How to Research Leads in 60 Seconds, Build 3-Tier Estimates in 5 Minutes, and Stop Losing Jobs to Slow Follow-Up
 
-**By CyclSales** | cyclsales.com
+**By RankGrid** | rankgrid.ai
 
 ---
 
@@ -241,18 +241,18 @@ Sound familiar?
 - Your pipeline is ranked so you know which estimates to chase first
 - After the install, a review request goes out automatically
 
-That's what CyclSales built for HVAC contractors.
+That's what RankGrid sets up for HVAC contractors.
 
 Not a software login you have to figure out. Not a dashboard with 47 features. A system that's set up for you, working, in about 7-10 days.
 
 The word our clients say most? "Finally."
 
 **See it in action:**
-→ cyclsales.com/hvac?utm_source=lead-magnet&utm_medium=pdf&utm_content=speed-selling-playbook
+→ rankgrid.ai?utm_source=lead-magnet&utm_medium=pdf&utm_content=speed-selling-playbook
 
 Or just reply to the email that delivered this guide. That works too.
 
 ---
 
-*Built by CyclSales — AI-powered CRM for home service businesses.*
-*cyclsales.com*
+*Built by RankGrid. Local SEO and lead systems for home service businesses.*
+*rankgrid.ai*

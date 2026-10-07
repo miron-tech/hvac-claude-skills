@@ -3,7 +3,7 @@
 **Subject:** why I built this for HVAC guys
 **Subject B:** the call that started all of this
 
-**From:** miron@cyclsales.com
+**From:** support@rankgrid.ai
 **Send:** Day 1
 
 ---

@@ -26,10 +26,6 @@ Here's how this is different.
 
 **And if it doesn't work?** You tell me and we fix it. We don't hand you software and wave goodbye. We stay in it until the system is working the way it should.
 
-The word clients say most after we set things up? "Finally."
-
-Not "wow this is amazing." Just... "finally, something that works."
-
 If that sounds like what you need, reply "show me" and I'll send over the details.
 
 — Miron

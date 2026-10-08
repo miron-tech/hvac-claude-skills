@@ -245,8 +245,6 @@ That's what RankGrid sets up for HVAC contractors.
 
 Not a software login you have to figure out. Not a dashboard with 47 features. A system that's set up for you, working, in about 7-10 days.
 
-The word our clients say most? "Finally."
-
 **See it in action:**
 → rankgrid.ai?utm_source=lead-magnet&utm_medium=pdf&utm_content=speed-selling-playbook
 
